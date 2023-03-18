@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-color: #457b9d;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 23rem;
+  padding: 5rem;
+  background-color: #a8dadc;
+  border-radius: 10px;
+  border-color: #a8dadc;
+  box-shadow: 2px 3px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.temperature {
+  padding-right: 1rem;
+}
+.temperature label {
+  margin-bottom: 10rem;
+  font-size: 1.5rem;
+}
+.temperature input {
+  width: 7rem;
+  padding: 0.5rem;
+  outline: none;
+  border-radius: 5px;
+  border-color: #fff;
+  background-color: #fff;
+}
